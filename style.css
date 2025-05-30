@@ -1,16 +1,18 @@
 body {
-    
+    margin-top: 80px;
 }
 
 .header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: 64px;
+    margin-right: 64px;
 }
 
 .logo-image {
     display: flex;
-    min-height: 100px;
+    min-height: 300px;
     max-height: 100px;
     min-width: 500px;
     max-width: 500px;
@@ -31,6 +33,7 @@ ul {
     display: flex;
     gap: 16px;
     margin: 0;
+    margin-top: 16px;
     padding: 0;
 }
 
@@ -38,6 +41,8 @@ ul {
     display: flex;
     gap: 16px;
     margin: 0;
+    margin-top: 16px;
+    margin-bottom: 8px;
     padding: 0;
 }
 
@@ -46,7 +51,9 @@ ul {
     flex-wrap: wrap;
     gap: 16px;
     justify-content: center;
-     
+    margin-top: 32px;
+    margin-left: 64px;
+    margin-right: 64px;
 
 }
 
@@ -57,3 +64,14 @@ ul {
     min-height: 200px;
     max-height: 200px;
 }
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.footer p a {
+    text-decoration: underline;
+} 
