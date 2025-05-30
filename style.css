@@ -1,3 +1,59 @@
 body {
     
 }
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-image {
+    display: flex;
+    min-height: 100px;
+    max-height: 100px;
+    min-width: 500px;
+    max-width: 500px;
+    flex: 0 0 50%;
+    background-color: gray;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+.navigation ul{
+    display: flex;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.social-links ul {
+    display: flex;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+     
+
+}
+
+.content-box {
+    background-color: bisque;
+    min-width: 200px;
+    max-width: 200px;
+    min-height: 200px;
+    max-height: 200px;
+}
